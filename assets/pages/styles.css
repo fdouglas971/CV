@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1 h2 h3{ 
+    font-family: "Lato", sans-serif;
+    margin-bottom: 0;
+}
+h3{
+    color: #17abb3;}
+.bottom_line{
+    width: 350px;
+    border-bottom-color: #e3e3e3;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+.bottom_line2{
+    width: 770px;
+    border-bottom-color: #e3e3e3;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    }
+
+
+/* Styles de base pour le corps de la page */
+body {
+    font-family: "Raleway", sans-serif;
+    margin: 0 auto;
+    width: 1300px;
+    background-color: #f2f2f2;
+    color: #333;
+}
+div section table{
+    padding-bottom: 10px;
+}
+
+
+
+/* Conteneur principal */
+.container {
+    width: 1160px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour l'en-tête */
+header {
+    background-color: #17abb3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contenu de l'en-tête */
+.header-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* Image de profil */
+.profile-pic {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.name{display: flex;
+    flex-direction: column;
+    margin-left: 40%;}
+
+h1 {
+    font-size: 2.2em;
+    margin: 0;
+}
+
+
+h2 {
+    font-size: 1.5em;
+    margin: 5px 0;
+}
+
+.contact-info{
+    text-align: start;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+
+/* Contenu principal avec disposition flex */
+.main-content {
+    width: 100%;
+    display: flex;
+}
+
+/* Colonne gauche (aside) */
+.left {
+    width: 25%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #f5f5f5;
+}
+.skills{width: 300px;
+    text-align: left;
+    padding-right: 50px;
+}
+
+.stars{
+    text-align: end;
+    font-size: 1.2em;
+}
+
+.languages{width: 250px;
+    text-align: left;
+}
+
+.level{
+    text-align: end;
+}
+
+
+
+/* Listes dans les sections */
+section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.qualities ul li{
+    margin-bottom: 10px;
+    list-style-type: square;
+    padding-left: 10px;
+}
+.interests ul li{
+    list-style-type: square;
+    padding-left: 10px;
+}
+
+/* Étoiles pour les compétences */
+.stars {
+    color: #17abb3; /* Couleur jaune pour les étoiles */
+}
+
+/* Colonne droite (profil, formations, etc.) */
+.right {
+    width: 75%;
+    padding-left: 20px;
+}
+.period{text-align: end;
+color: #17abb3;}
+
+.education{ 
+    width: 770px;
+}
+.internships{
+    width: 770px;
+}
+
+.experience{
+    width: 770px;
+}
+.degree{
+    text-align: start;
+}
+
+/* Pied de page */
+footer {
+    background-color: #17abb3;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Liens vers les réseaux sociaux */
+.social-icons a {
+    color:#ffffff ;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Contenu du pied de page */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Marge pour le texte de mise à jour */
+.footer-content p {
+    margin: 10px 0 0 0;
+}
