@@ -59,6 +59,11 @@ header {
     flex-direction: row;
 }
 
+.contact-info{
+    display: contents;
+    width: max-content;
+}
+
 /* Image de profil */
 .profile-pic {
     border-radius: 50%;
@@ -149,6 +154,11 @@ section ul {
     width: 75%;
     padding-left: 20px;
 }
+
+.profile{
+    width: 750px;
+}
+
 .period{text-align: end;
 color: #17abb3;}
 
