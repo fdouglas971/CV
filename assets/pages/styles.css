@@ -22,12 +22,7 @@ h3{
     margin-bottom: 20px;
 }
 
-li{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-right: 40px;
-}
+
 
 /* Styles de base pour le corps de la page */
 body {
@@ -125,6 +120,12 @@ a{
     padding-right: 50px;
 }
 
+.skills li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+}
 .stars{
     color: #17abb3;
     text-align: end;
@@ -137,9 +138,13 @@ a{
     text-align: left;
 }
 
-.level{
-    text-align: end;
+.languages li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
 }
+
 
 
 
@@ -151,6 +156,13 @@ ul {
     flex-direction: column;
     gap: 4px;
     padding-top: 10px;
+    list-style-type: square;
+}
+
+/* Couleur de la puce*/
+
+li::marker{ 
+    color: #17abb3;
 }
 
 
