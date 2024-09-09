@@ -23,6 +23,7 @@ h3{
 }
 
 
+
 /* Styles de base pour le corps de la page */
 body {
     font-family: "Raleway", sans-serif;
@@ -31,10 +32,6 @@ body {
     background-color: #f2f2f2;
     color: #333;
 }
-div section table{
-    padding-bottom: 10px;
-}
-
 
 
 /* Conteneur principal */
@@ -117,47 +114,57 @@ a{
     padding-right: 20px;
     background: #f5f5f5;
 }
-.skills{width: 300px;
+.skills{
+    width: 300px;
     text-align: left;
     padding-right: 50px;
 }
 
+.skills li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+}
 .stars{
+    color: #17abb3;
     text-align: end;
     font-size: 1.2em;
 }
 
-.languages{width: 250px;
+.languages{
+    display: contents;
+    width: 250px;
     text-align: left;
 }
 
-.level{
-    text-align: end;
+.languages li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
 }
+
 
 
 
 /* Listes dans les sections */
-section ul {
-    list-style: none;
+ul {
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-top: 10px;
+    list-style-type: square;
 }
 
-.qualities ul li{
-    margin-bottom: 10px;
-    list-style-type: square;
-    padding-left: 10px;
-}
-.interests ul li{
-    list-style-type: square;
-    padding-left: 10px;
+/* Couleur de la puce*/
+
+li::marker{ 
+    color: #17abb3;
 }
 
-/* Étoiles pour les compétences */
-.stars {
-    color: #17abb3; /* Couleur jaune pour les étoiles */
-}
 
 /* Colonne droite (profil, formations, etc.) */
 .right {
@@ -194,6 +201,8 @@ section ul {
 }
 
 .society{
+    font-size: smaller;
+    font-style: italic;
     grid-row: 2 / span 2;
 }
 
